@@ -49,6 +49,9 @@
     "version:publish": "changeset publish",
     "version:prepublish": "pkg-pr-new publish --pnpm --compact"
   },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
+  },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.1",
     "@changesets/cli": "2.28.1",
@@ -59,10 +62,14 @@
     "@praha/eslint-config-typescript": "3.0.3",
     "@rslib/core": "0.6.3",
     "@tsconfig/strictest": "2.0.5",
+    "@vanilla-extract/css": "1.17.1",
     "eslint": "9.24.0",
     "pkg-pr-new": "0.0.42",
     "typescript": "5.8.3",
     "vitest": "3.1.1"
+  },
+  "peerDependencies": {
+    "@vanilla-extract/css": "^1.0.0"
   },
   "packageManager": "pnpm@10.8.0",
   "publishConfig": {
