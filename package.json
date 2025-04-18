@@ -1,6 +1,6 @@
 {
   "name": "@praha/vanilla-essence",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Essential utilities for vanilla-extract",
   "keywords": [
     "javascript",
