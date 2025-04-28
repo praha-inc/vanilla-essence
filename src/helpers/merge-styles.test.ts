@@ -7,7 +7,7 @@ describe('mergeStyles', () => {
     const rule1 = { color: 'red' };
     const rule2 = { background: 'blue' };
 
-    const merged = mergeStyles([rule1, rule2]);
+    const merged = mergeStyles(rule1, rule2);
 
     expect(merged).toEqual({ color: 'red', background: 'blue' });
   });
@@ -16,7 +16,7 @@ describe('mergeStyles', () => {
     const rule1 = { color: 'red' };
     const rule2 = { color: 'blue' };
 
-    const merged = mergeStyles([rule1, rule2]);
+    const merged = mergeStyles(rule1, rule2);
 
     expect(merged).toEqual({ color: 'blue' });
   });
@@ -25,7 +25,7 @@ describe('mergeStyles', () => {
     const rule1 = { '::after': { style: 'solid', width: '1px' } };
     const rule2 = { '::after': { color: 'black' } };
 
-    const merged = mergeStyles([rule1, rule2]);
+    const merged = mergeStyles(rule1, rule2);
 
     expect(merged).toEqual({
       '::after': { style: 'solid', width: '1px', color: 'black' },
@@ -36,13 +36,13 @@ describe('mergeStyles', () => {
     const rule1 = { color: ['black', 'white'] };
     const rule2 = { color: ['red', 'green', 'blue'] };
 
-    const merged = mergeStyles([rule1, rule2]);
+    const merged = mergeStyles(rule1, rule2);
 
     expect(merged).toEqual({ color: ['red', 'green', 'blue'] });
   });
 
   it('should handle empty rules', () => {
-    const merged = mergeStyles([]);
+    const merged = mergeStyles();
 
     expect(merged).toEqual({});
   });
