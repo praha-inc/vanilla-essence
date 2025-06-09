@@ -46,8 +46,8 @@ importers:
         specifier: 1.17.3
         version: 1.17.3
       '@vanilla-extract/integration':
-        specifier: 8.0.2
-        version: 8.0.2
+        specifier: 8.0.3
+        version: 8.0.3
       eslint:
         specifier: 9.28.0
         version: 9.28.0(jiti@2.4.2)
@@ -1079,14 +1079,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vanilla-extract/babel-plugin-debug-ids@1.2.0':
-    resolution: {integrity: sha512-z5nx2QBnOhvmlmBKeRX5sPVLz437wV30u+GJL+Hzj1rGiJYVNvgIIlzUpRNjVQ0MgAgiQIqIUbqPnmMc6HmDlQ==}
+  '@vanilla-extract/babel-plugin-debug-ids@1.2.1':
+    resolution: {integrity: sha512-RkXKzcKVZtcDNmcGh8Bv9MNW6oYYUzy90GYt8amMrk5P+myXsdFSU9N7V+cJAf80l+AsMVMyK0GK7Qj35Sfppg==}
 
   '@vanilla-extract/css@1.17.3':
     resolution: {integrity: sha512-jHivr1UPoJTX5Uel4AZSOwrCf4mO42LcdmnhJtUxZaRWhW4FviFbIfs0moAWWld7GOT+2XnuVZjjA/K32uUnMQ==}
 
-  '@vanilla-extract/integration@8.0.2':
-    resolution: {integrity: sha512-w9OvWwsYkqyuyHf9NLnOJ8ap0FGTy2pAeWftgxAEkKE3tF1aYeyEtYRHKxfVH6JRgi8JIeQqELHGMSwz+BxwiA==}
+  '@vanilla-extract/integration@8.0.3':
+    resolution: {integrity: sha512-7sCd4kBp/u02iNq3cYBXtOzKyX5muoHylsqcEjyuJWfnxOb1iB/jDCyTsiSRXcByj/wKjgjItbAdm/uzrUlAVw==}
 
   '@vanilla-extract/private@1.0.8':
     resolution: {integrity: sha512-oRAbUlq1SyTWCo7dQnTVm+xgJMqNl8K1dEempQHXzQvUuyEfBabMt0wNGf+VCHzvKbx/Bzr9p/2wy8WA9+2z2g==}
@@ -2445,7 +2445,7 @@ snapshots:
       '@babel/traverse': 7.27.0
       '@babel/types': 7.27.0
       convert-source-map: 2.0.0
-      debug: 4.4.0
+      debug: 4.4.1
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -2523,7 +2523,7 @@ snapshots:
       '@babel/parser': 7.27.0
       '@babel/template': 7.27.0
       '@babel/types': 7.27.0
-      debug: 4.4.0
+      debug: 4.4.1
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -3444,7 +3444,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.5.0':
     optional: true
 
-  '@vanilla-extract/babel-plugin-debug-ids@1.2.0':
+  '@vanilla-extract/babel-plugin-debug-ids@1.2.1':
     dependencies:
       '@babel/core': 7.26.10
     transitivePeerDependencies:
@@ -3467,11 +3467,11 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@vanilla-extract/integration@8.0.2':
+  '@vanilla-extract/integration@8.0.3':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.10)
-      '@vanilla-extract/babel-plugin-debug-ids': 1.2.0
+      '@vanilla-extract/babel-plugin-debug-ids': 1.2.1
       '@vanilla-extract/css': 1.17.3
       dedent: 1.5.3
       esbuild: 0.25.2
