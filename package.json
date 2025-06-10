@@ -73,7 +73,7 @@
   "peerDependencies": {
     "@vanilla-extract/css": "^1.0.0"
   },
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "publishConfig": {
     "provenance": true
   }
