@@ -1,5 +1,11 @@
 # @praha/vanilla-essence
 
+## 1.1.1
+
+### Patch Changes
+
+- [#60](https://github.com/praha-inc/vanilla-essence/pull/60) [`d6fd7e1`](https://github.com/praha-inc/vanilla-essence/commit/d6fd7e194b6b99d67fbbc7227efc843bf1d37acf) Thanks [@Karibash](https://github.com/Karibash)! - Make it explicitly stated that there are no side effects
+
 ## 1.1.0
 
 ### Minor Changes
