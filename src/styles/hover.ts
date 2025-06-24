@@ -1,8 +1,14 @@
 import { typedQuery } from '../helpers/typed-query';
 
-import type { StyleRule } from '@vanilla-extract/css';
+import type { CSSProperties, StyleRule } from '@vanilla-extract/css';
 
-export const hover = (rule: StyleRule): StyleRule => {
+type CSSPropertiesWithVariables = CSSProperties & {
+  vars?: {
+    [key: string]: string;
+  };
+};
+
+export const hover = (rule: CSSPropertiesWithVariables): StyleRule => {
   return {
     '@media': {
       [typedQuery(`(any-hover: hover)`)]: {
