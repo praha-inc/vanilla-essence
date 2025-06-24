@@ -1,5 +1,11 @@
 # @praha/vanilla-essence
 
+## 1.1.2
+
+### Patch Changes
+
+- [#70](https://github.com/praha-inc/vanilla-essence/pull/70) [`9ce89d4`](https://github.com/praha-inc/vanilla-essence/commit/9ce89d4802dc6c4ff822eccbafcf7cc0cd1cde22) Thanks [@Karibash](https://github.com/Karibash)! - Improve hover function type
+
 ## 1.1.1
 
 ### Patch Changes
