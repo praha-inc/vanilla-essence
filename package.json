@@ -61,7 +61,7 @@
     "@praha/eslint-config-javascript": "3.0.5",
     "@praha/eslint-config-style": "3.0.6",
     "@praha/eslint-config-typescript": "3.0.6",
-    "@rsbuild/core": "1.4.3",
+    "@rsbuild/core": "1.4.4",
     "@rslib/core": "0.10.4",
     "@tsconfig/strictest": "2.0.5",
     "@vanilla-extract/css": "1.17.4",
