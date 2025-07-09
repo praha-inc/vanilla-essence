@@ -37,8 +37,8 @@ importers:
         specifier: 1.4.5
         version: 1.4.5
       '@rslib/core':
-        specifier: 0.10.4
-        version: 0.10.4(typescript@5.8.3)
+        specifier: 0.10.5
+        version: 0.10.5(typescript@5.8.3)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -774,8 +774,8 @@ packages:
     engines: {node: '>=16.10.0'}
     hasBin: true
 
-  '@rslib/core@0.10.4':
-    resolution: {integrity: sha512-/+cVo+orheZZyyALwyrOvYIRmd7dPKOrP4kfKQrr8VHwJlHS1975iW7/pSesmKT44Jv+wjmTWc5JZbjzCS5K0w==}
+  '@rslib/core@0.10.5':
+    resolution: {integrity: sha512-kThW/bkKgja++/AykW1fJaRK+TAiW3+ZSWiCKJxHHS87ZQc/PeRTxk2A0upHi7R3CyfdGgXGNcEBPoeBUj4zYw==}
     engines: {node: '>=16.7.0'}
     hasBin: true
     peerDependencies:
@@ -1943,8 +1943,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.10.4:
-    resolution: {integrity: sha512-/Zl9hgo1L2cpeKnMvAi0ws57Heo6X9wE07dUwdgb5NMEQSXQaHRv1eeRDKpzNYedaWl+yAIvL2IYK4GcCR0y4w==}
+  rsbuild-plugin-dts@0.10.5:
+    resolution: {integrity: sha512-gjngxgV0RD4T7aKDTf7kho9IUBNjHR+Y3krYwNEnUakOiuk9Fn03MxVCcASyCsPY+H7HooI8P8wXZoPhiSWSZA==}
     engines: {node: '>=16.7.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -3059,10 +3059,10 @@ snapshots:
       core-js: 3.44.0
       jiti: 2.4.2
 
-  '@rslib/core@0.10.4(typescript@5.8.3)':
+  '@rslib/core@0.10.5(typescript@5.8.3)':
     dependencies:
       '@rsbuild/core': 1.4.5
-      rsbuild-plugin-dts: 0.10.4(@rsbuild/core@1.4.5)(typescript@5.8.3)
+      rsbuild-plugin-dts: 0.10.5(@rsbuild/core@1.4.5)(typescript@5.8.3)
       tinyglobby: 0.2.14
     optionalDependencies:
       typescript: 5.8.3
@@ -4238,7 +4238,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.10.4(@rsbuild/core@1.4.5)(typescript@5.8.3):
+  rsbuild-plugin-dts@0.10.5(@rsbuild/core@1.4.5)(typescript@5.8.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.4.5
