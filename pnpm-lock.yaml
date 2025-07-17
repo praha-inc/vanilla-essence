@@ -37,8 +37,8 @@ importers:
         specifier: 1.4.7
         version: 1.4.7
       '@rslib/core':
-        specifier: 0.10.5
-        version: 0.10.5(typescript@5.8.3)
+        specifier: 0.10.6
+        version: 0.10.6(typescript@5.8.3)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -778,8 +778,8 @@ packages:
     engines: {node: '>=16.10.0'}
     hasBin: true
 
-  '@rslib/core@0.10.5':
-    resolution: {integrity: sha512-kThW/bkKgja++/AykW1fJaRK+TAiW3+ZSWiCKJxHHS87ZQc/PeRTxk2A0upHi7R3CyfdGgXGNcEBPoeBUj4zYw==}
+  '@rslib/core@0.10.6':
+    resolution: {integrity: sha512-7OLdmmQbY116gNAAsY9baCid9REr+z11qfAzwVVFw+Q8avCE6YqpcBLfrBXlfmpBikfshDmHH8EpRrQwz8gZJQ==}
     engines: {node: '>=16.7.0'}
     hasBin: true
     peerDependencies:
@@ -1950,8 +1950,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.10.5:
-    resolution: {integrity: sha512-gjngxgV0RD4T7aKDTf7kho9IUBNjHR+Y3krYwNEnUakOiuk9Fn03MxVCcASyCsPY+H7HooI8P8wXZoPhiSWSZA==}
+  rsbuild-plugin-dts@0.10.6:
+    resolution: {integrity: sha512-rVP82fFMDHW0GirhYx+w2bER1HhkOKJ8e/bAAF2OkMUP2k2fviMpl/gsnbO8KI9vcSqsQE2QXHkj781m6W84Ow==}
     engines: {node: '>=16.7.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -3070,10 +3070,10 @@ snapshots:
       core-js: 3.44.0
       jiti: 2.4.2
 
-  '@rslib/core@0.10.5(typescript@5.8.3)':
+  '@rslib/core@0.10.6(typescript@5.8.3)':
     dependencies:
       '@rsbuild/core': 1.4.7
-      rsbuild-plugin-dts: 0.10.5(@rsbuild/core@1.4.7)(typescript@5.8.3)
+      rsbuild-plugin-dts: 0.10.6(@rsbuild/core@1.4.7)(typescript@5.8.3)
       tinyglobby: 0.2.14
     optionalDependencies:
       typescript: 5.8.3
@@ -4254,7 +4254,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.10.5(@rsbuild/core@1.4.7)(typescript@5.8.3):
+  rsbuild-plugin-dts@0.10.6(@rsbuild/core@1.4.7)(typescript@5.8.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.4.7
