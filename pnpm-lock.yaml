@@ -34,8 +34,8 @@ importers:
         specifier: 3.0.6
         version: 3.0.6(@praha/eslint-config-common@4.0.1(eslint@9.31.0(jiti@2.4.2)))(@praha/eslint-config-javascript@3.0.5(@praha/eslint-config-common@4.0.1(eslint@9.31.0(jiti@2.4.2)))(@typescript-eslint/eslint-plugin@8.30.1(@typescript-eslint/parser@8.30.1(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
       '@rsbuild/core':
-        specifier: 1.4.7
-        version: 1.4.7
+        specifier: 1.4.8
+        version: 1.4.8
       '@rslib/core':
         specifier: 0.10.6
         version: 0.10.6(typescript@5.8.3)
@@ -773,8 +773,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.4.7':
-    resolution: {integrity: sha512-mYvMYlCKUQAfz7x7GJnD6lBsVBfUSEAfrZLxkDQ0F3w7If9cQpHWLWZWdRmcFFy3Pzns1Edxn0st1nAmcFhRJQ==}
+  '@rsbuild/core@1.4.8':
+    resolution: {integrity: sha512-IJhpLl8lrp5ynlf04V5l7rMrVTNuGLG36ZDadHiBIC5qLRGSS3rMF8cVLSkSA6qM1OiRlPpMgwQbqFYh325RvQ==}
     engines: {node: '>=16.10.0'}
     hasBin: true
 
@@ -3062,7 +3062,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.40.0':
     optional: true
 
-  '@rsbuild/core@1.4.7':
+  '@rsbuild/core@1.4.8':
     dependencies:
       '@rspack/core': 1.4.8(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
@@ -3072,8 +3072,8 @@ snapshots:
 
   '@rslib/core@0.10.6(typescript@5.8.3)':
     dependencies:
-      '@rsbuild/core': 1.4.7
-      rsbuild-plugin-dts: 0.10.6(@rsbuild/core@1.4.7)(typescript@5.8.3)
+      '@rsbuild/core': 1.4.8
+      rsbuild-plugin-dts: 0.10.6(@rsbuild/core@1.4.8)(typescript@5.8.3)
       tinyglobby: 0.2.14
     optionalDependencies:
       typescript: 5.8.3
@@ -4254,10 +4254,10 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.10.6(@rsbuild/core@1.4.7)(typescript@5.8.3):
+  rsbuild-plugin-dts@0.10.6(@rsbuild/core@1.4.8)(typescript@5.8.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
-      '@rsbuild/core': 1.4.7
+      '@rsbuild/core': 1.4.8
       magic-string: 0.30.17
       picocolors: 1.1.1
       tinyglobby: 0.2.14
