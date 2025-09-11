@@ -37,8 +37,8 @@ importers:
         specifier: 1.5.6
         version: 1.5.6
       '@rslib/core':
-        specifier: 0.13.0
-        version: 0.13.0(typescript@5.8.3)
+        specifier: 0.13.1
+        version: 0.13.1(typescript@5.8.3)
       '@tsconfig/strictest':
         specifier: 2.0.5
         version: 2.0.5
@@ -808,8 +808,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rslib/core@0.13.0':
-    resolution: {integrity: sha512-jRCKUQPBhIXKQT5LVC76pcpAg4H10xU8kjxxLqMW5qKTXka5PlF86zyZ/gSolgkHx+AHaFPYweGZKPxbMaI45A==}
+  '@rslib/core@0.13.1':
+    resolution: {integrity: sha512-XDyTHHXtLs9Cki5vzaabgFXbn/EksCmR571SVbIxJZB05zD7LwbbpcyTXgXk2DrW/6nOm7aTceh/mQHF5qq9gQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     peerDependencies:
@@ -1751,6 +1751,9 @@ packages:
   magic-string@0.30.18:
     resolution: {integrity: sha512-yi8swmWbO17qHhwIBNeeZxTceJMeBvWJaId6dyvTSOwTipqeHhMhOrz6513r1sOKnpvQ7zkhlG8tPrpilwTxHQ==}
 
+  magic-string@0.30.19:
+    resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
+
   media-query-parser@2.0.2:
     resolution: {integrity: sha512-1N4qp+jE0pL5Xv4uEcwVUhIkwdUO3S/9gML90nqKA7v7FcOS5vUtatfzok9S9U1EJU8dHWlcv95WLnKmmxZI9w==}
 
@@ -1988,8 +1991,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.13.0:
-    resolution: {integrity: sha512-6E82mYpQkPNBOU2i+UBEdvrvsrtKU3Yo0llTn89QKmLD6m47qgjzXzryuhpdYg0qW6urvBhFWcq59HY1QIedcw==}
+  rsbuild-plugin-dts@0.13.1:
+    resolution: {integrity: sha512-pIT5on+uD3J5wNO1OdiAQWlFM4t3JHr2P2OxxpPHYgdP259Q2CScgUwPclPhma7rMippOEx2FmX8qbVurcxq9A==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -3147,10 +3150,10 @@ snapshots:
       core-js: 3.45.1
       jiti: 2.5.1
 
-  '@rslib/core@0.13.0(typescript@5.8.3)':
+  '@rslib/core@0.13.1(typescript@5.8.3)':
     dependencies:
       '@rsbuild/core': 1.5.6
-      rsbuild-plugin-dts: 0.13.0(@rsbuild/core@1.5.6)(typescript@5.8.3)
+      rsbuild-plugin-dts: 0.13.1(@rsbuild/core@1.5.6)(typescript@5.8.3)
       tinyglobby: 0.2.15
     optionalDependencies:
       typescript: 5.8.3
@@ -3695,7 +3698,7 @@ snapshots:
       get-tsconfig: 4.10.0
       is-bun-module: 2.0.0
       stable-hash: 0.0.5
-      tinyglobby: 0.2.14
+      tinyglobby: 0.2.15
       unrs-resolver: 1.5.0
     optionalDependencies:
       eslint-plugin-import-x: 4.10.5(eslint@9.35.0(jiti@2.5.1))(typescript@5.8.3)
@@ -4104,6 +4107,10 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
+  magic-string@0.30.19:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
   media-query-parser@2.0.2:
     dependencies:
       '@babel/runtime': 7.27.0
@@ -4332,11 +4339,11 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.40.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.13.0(@rsbuild/core@1.5.6)(typescript@5.8.3):
+  rsbuild-plugin-dts@0.13.1(@rsbuild/core@1.5.6)(typescript@5.8.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.5.6
-      magic-string: 0.30.18
+      magic-string: 0.30.19
       picocolors: 1.1.1
       tinyglobby: 0.2.15
       tsconfig-paths: 4.2.0
