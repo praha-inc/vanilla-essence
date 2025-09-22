@@ -1,5 +1,11 @@
 # @praha/vanilla-essence
 
+## 1.1.3
+
+### Patch Changes
+
+- [#141](https://github.com/praha-inc/vanilla-essence/pull/141) [`3bf0565`](https://github.com/praha-inc/vanilla-essence/commit/3bf056532b574424e62b3699eb196b8992f97d62) Thanks [@Karibash](https://github.com/Karibash)! - Add file extensions to import paths in TypeScript declaration files
+
 ## 1.1.2
 
 ### Patch Changes
