@@ -2,6 +2,7 @@ import { defineConfig } from '@rslib/core';
 import { cssFileFilter, getPackageInfo, normalizePath, transform } from '@vanilla-extract/integration';
 
 import type { RsbuildPlugin } from '@rsbuild/core';
+import type { Format, LibConfig } from '@rslib/core';
 
 const vanillaExtractTransformPlugin = (): RsbuildPlugin => ({
   name: 'praha:vanilla-extract-transform',
@@ -20,6 +21,22 @@ const vanillaExtractTransformPlugin = (): RsbuildPlugin => ({
   },
 });
 
+const createLibrary = (format: Format): LibConfig => ({
+  format,
+  bundle: false,
+  dts: true,
+  redirect: {
+    dts: {
+      extension: true,
+    },
+  },
+  output: {
+    distPath: {
+      root: `./dist/${format}`,
+    },
+  },
+});
+
 export default defineConfig({
   source: {
     entry: {
@@ -34,25 +51,7 @@ export default defineConfig({
     vanillaExtractTransformPlugin(),
   ],
   lib: [
-    {
-      format: 'cjs',
-      bundle: false,
-      dts: true,
-      output: {
-        distPath: {
-          root: './dist/cjs',
-        },
-      },
-    },
-    {
-      format: 'esm',
-      bundle: false,
-      dts: true,
-      output: {
-        distPath: {
-          root: './dist/esm',
-        },
-      },
-    },
+    createLibrary('cjs'),
+    createLibrary('esm'),
   ],
 });
