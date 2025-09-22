@@ -19,9 +19,9 @@ type Operator = LessOperator | EqualOperator;
 type Dimension = 'width' | 'height';
 
 type DimensionCondition = (
-  `(${Dimension} ${Operator} ${Length})` |
-  `(${Length} ${Operator} ${Dimension})` |
-  `(${Length} ${LessOperator} ${Dimension} ${LessOperator} ${Length})`
+  | `(${Dimension} ${Operator} ${Length})`
+  | `(${Length} ${Operator} ${Dimension})`
+  | `(${Length} ${LessOperator} ${Dimension} ${LessOperator} ${Length})`
 );
 
 type Orientation = 'portrait' | 'landscape';
@@ -33,11 +33,11 @@ type ReducedMotion = 'reduce' | 'no-preference';
 type ReduceMotionCondition = `(prefers-reduced-motion: ${ReducedMotion})`;
 
 type MediaFeature = (
-  AnyHoverCondition |
-  ColorSchemeCondition |
-  DimensionCondition |
-  OrientationCondition |
-  ReduceMotionCondition
+  | AnyHoverCondition
+  | ColorSchemeCondition
+  | DimensionCondition
+  | OrientationCondition
+  | ReduceMotionCondition
 );
 
 type MediaType = 'all' | 'print' | 'screen' | 'speech';
