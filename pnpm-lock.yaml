@@ -37,8 +37,8 @@ importers:
         specifier: 1.6.2
         version: 1.6.2
       '@rslib/core':
-        specifier: 0.17.0
-        version: 0.17.0(typescript@5.9.3)
+        specifier: 0.17.1
+        version: 0.17.1(typescript@5.9.3)
       '@tsconfig/strictest':
         specifier: 2.0.7
         version: 2.0.7
@@ -801,8 +801,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rslib/core@0.17.0':
-    resolution: {integrity: sha512-8oQTnyxeqHB0vFJf8eihxsvpizSdwFOhuEYHWPLjGNvGxvlujt6nhzms6UeopLvtYh7ZMZAzSj0hAIlc/G1u6w==}
+  '@rslib/core@0.17.1':
+    resolution: {integrity: sha512-7mqrktQuHMkGcgIW6pBdw7xpBy5KmvTN22+RhSkj1y4FKfen/PqOPDGqGlN+kTbPSXs20kBepNkYWYV8t+6ryA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     peerDependencies:
@@ -1956,8 +1956,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.17.0:
-    resolution: {integrity: sha512-GHfdTj5V3rscsVwfsh1cOPrQe1hwVvw9uE3aaqp0Mk9YGCTdjDS9Qczlohf8PwEHAlAL+qhvh6RQqAKZe7tuNg==}
+  rsbuild-plugin-dts@0.17.1:
+    resolution: {integrity: sha512-fEykqICjrvB0dqzm0WqZSQ5rXZ5r+ZYYxqIDgTDU6mHlhlAGJ+AOnX8vgujAdiyuqDF2ZiHcN0QYjxB2UwddtQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -3078,10 +3078,10 @@ snapshots:
       core-js: 3.46.0
       jiti: 2.6.1
 
-  '@rslib/core@0.17.0(typescript@5.9.3)':
+  '@rslib/core@0.17.1(typescript@5.9.3)':
     dependencies:
       '@rsbuild/core': 1.6.2
-      rsbuild-plugin-dts: 0.17.0(@rsbuild/core@1.6.2)(typescript@5.9.3)
+      rsbuild-plugin-dts: 0.17.1(@rsbuild/core@1.6.2)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -4231,7 +4231,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.52.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.17.0(@rsbuild/core@1.6.2)(typescript@5.9.3):
+  rsbuild-plugin-dts@0.17.1(@rsbuild/core@1.6.2)(typescript@5.9.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.6.2
