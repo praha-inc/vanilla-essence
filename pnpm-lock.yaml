@@ -37,8 +37,8 @@ importers:
         specifier: 1.6.8
         version: 1.6.8
       '@rslib/core':
-        specifier: 0.18.0
-        version: 0.18.0(typescript@5.9.3)
+        specifier: 0.18.1
+        version: 0.18.1(typescript@5.9.3)
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -797,8 +797,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rslib/core@0.18.0':
-    resolution: {integrity: sha512-ZLonxKnef5Hx4zZj2ZckicVnM0KwTP9x8XcNnZBuXo82maXVmSSERtvMrB7aufxlFjqEThOHG6RNuLZToM1eFQ==}
+  '@rslib/core@0.18.1':
+    resolution: {integrity: sha512-eDDz6y8anIAF17gQJBDfH6l/JTidkXANYAFq8iuymFQg/wE2PEKyBNC2K6n+jg4rT1a7AhuVbHZb5oDumaFopQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     peerDependencies:
@@ -1951,8 +1951,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.18.0:
-    resolution: {integrity: sha512-GzzcnYDoILabBddQH5wMQK93peZbHXnoF9wtFz0INRotAS2xIwBb1rIeFRpfn/fgXfSlFu4C8QbqD6U8PgXzJA==}
+  rsbuild-plugin-dts@0.18.1:
+    resolution: {integrity: sha512-2nj8zlMxyEkc4Z7wFo1zn1R2SQNyUSH1+g0hx5RKP0yJJojRovYbENjLf6ixFo7RwUU0PhS9EnuiiKqHPt8+FA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -3071,10 +3071,10 @@ snapshots:
       core-js: 3.47.0
       jiti: 2.6.1
 
-  '@rslib/core@0.18.0(typescript@5.9.3)':
+  '@rslib/core@0.18.1(typescript@5.9.3)':
     dependencies:
       '@rsbuild/core': 1.6.8
-      rsbuild-plugin-dts: 0.18.0(@rsbuild/core@1.6.8)(typescript@5.9.3)
+      rsbuild-plugin-dts: 0.18.1(@rsbuild/core@1.6.8)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -4224,7 +4224,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.52.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.18.0(@rsbuild/core@1.6.8)(typescript@5.9.3):
+  rsbuild-plugin-dts@0.18.1(@rsbuild/core@1.6.8)(typescript@5.9.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
       '@rsbuild/core': 1.6.8
