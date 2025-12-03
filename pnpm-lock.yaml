@@ -34,8 +34,8 @@ importers:
         specifier: 3.0.10
         version: 3.0.10(@praha/eslint-config-common@4.0.3(eslint@9.39.1(jiti@2.6.1)))(@praha/eslint-config-javascript@3.0.9(@praha/eslint-config-common@4.0.3(eslint@9.39.1(jiti@2.6.1)))(@typescript-eslint/eslint-plugin@8.44.0(@typescript-eslint/parser@8.44.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.44.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1)))(@typescript-eslint/utils@8.44.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       '@rsbuild/core':
-        specifier: 1.6.9
-        version: 1.6.9
+        specifier: 1.6.10
+        version: 1.6.10
       '@rslib/core':
         specifier: 0.18.2
         version: 0.18.2(typescript@5.9.3)
@@ -792,8 +792,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.6.9':
-    resolution: {integrity: sha512-wf41bbFIzqQsGkrDal2eVC4cxN6II1k4bUo1g7OFuvWeEOJzjoeK4R5xxKM9g5hRjbGAJs6OiQaGpASvUnDrsw==}
+  '@rsbuild/core@1.6.10':
+    resolution: {integrity: sha512-gAdI+H/xUsuEQikKlFUsxbr2f3uXfLU+3Z73wdcaQcNcvfmS3K+6vMyNYn6UFuCL5LPtXG9lwgc8cycToHgm5g==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -3067,7 +3067,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.52.0':
     optional: true
 
-  '@rsbuild/core@1.6.9':
+  '@rsbuild/core@1.6.10':
     dependencies:
       '@rspack/core': 1.6.5(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.1.0
@@ -3077,8 +3077,8 @@ snapshots:
 
   '@rslib/core@0.18.2(typescript@5.9.3)':
     dependencies:
-      '@rsbuild/core': 1.6.9
-      rsbuild-plugin-dts: 0.18.2(@rsbuild/core@1.6.9)(typescript@5.9.3)
+      '@rsbuild/core': 1.6.10
+      rsbuild-plugin-dts: 0.18.2(@rsbuild/core@1.6.10)(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -4232,10 +4232,10 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.52.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.18.2(@rsbuild/core@1.6.9)(typescript@5.9.3):
+  rsbuild-plugin-dts@0.18.2(@rsbuild/core@1.6.10)(typescript@5.9.3):
     dependencies:
       '@ast-grep/napi': 0.37.0
-      '@rsbuild/core': 1.6.9
+      '@rsbuild/core': 1.6.10
     optionalDependencies:
       typescript: 5.9.3
 
