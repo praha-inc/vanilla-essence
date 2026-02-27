@@ -69,7 +69,7 @@
     "eslint": "9.39.3",
     "pkg-pr-new": "0.0.63",
     "typescript": "5.9.3",
-    "vitest": "3.2.4"
+    "vitest": "4.0.18"
   },
   "peerDependencies": {
     "@vanilla-extract/css": "^1.0.0"
