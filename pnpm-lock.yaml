@@ -43,11 +43,11 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@vanilla-extract/css':
-        specifier: 1.18.0
-        version: 1.18.0
+        specifier: 1.19.0
+        version: 1.19.0
       '@vanilla-extract/integration':
-        specifier: 8.0.7
-        version: 8.0.7
+        specifier: 8.0.8
+        version: 8.0.8
       eslint:
         specifier: 9.39.4
         version: 9.39.4(jiti@2.6.1)
@@ -1172,11 +1172,11 @@ packages:
   '@vanilla-extract/babel-plugin-debug-ids@1.2.2':
     resolution: {integrity: sha512-MeDWGICAF9zA/OZLOKwhoRlsUW+fiMwnfuOAqFVohL31Agj7Q/RBWAYweqjHLgFBCsdnr6XIfwjJnmb2znEWxw==}
 
-  '@vanilla-extract/css@1.18.0':
-    resolution: {integrity: sha512-/p0dwOjr0o8gE5BRQ5O9P0u/2DjUd6Zfga2JGmE4KaY7ZITWMszTzk4x4CPlM5cKkRr2ZGzbE6XkuPNfp9shSQ==}
+  '@vanilla-extract/css@1.19.0':
+    resolution: {integrity: sha512-CmiHmTn0VXYW2/A575zzAJ+gJWBRdpEhEseg93WBst0QNQJiHO3cQXyVMIW+RhPi5D9TM8W4U929/ELDaXq6yQ==}
 
-  '@vanilla-extract/integration@8.0.7':
-    resolution: {integrity: sha512-ILob4F9cEHXpbWAVt3Y2iaQJpqYq/c/5TJC8Fz58C2XmX3QW2Y589krvViiyJhQfydCGK3EbwPQhVFjQaBeKfg==}
+  '@vanilla-extract/integration@8.0.8':
+    resolution: {integrity: sha512-/MIdmUzeTHdGY00BJVGk9IPYxOkzVIzSpnxiyr2aoZnlxDyvCpjApQSwtMaP0a01T3xiROufDCn4cmSnOjwr1Q==}
 
   '@vanilla-extract/private@1.0.9':
     resolution: {integrity: sha512-gT2jbfZuaaCLrAxwXbRgIhGhcXbRZCG3v4TTUnjw0EJ7ArdBRxkq4msNJkbuRkCgfIK5ATmprB5t9ljvLeFDEA==}
@@ -3464,7 +3464,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vanilla-extract/css@1.18.0':
+  '@vanilla-extract/css@1.19.0':
     dependencies:
       '@emotion/hash': 0.9.2
       '@vanilla-extract/private': 1.0.9
@@ -3481,12 +3481,12 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@vanilla-extract/integration@8.0.7':
+  '@vanilla-extract/integration@8.0.8':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-syntax-typescript': 7.28.6(@babel/core@7.29.0)
       '@vanilla-extract/babel-plugin-debug-ids': 1.2.2
-      '@vanilla-extract/css': 1.18.0
+      '@vanilla-extract/css': 1.19.0
       dedent: 1.7.2
       esbuild: 0.27.4
       eval: 0.1.8
