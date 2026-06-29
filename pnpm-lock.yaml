@@ -34,8 +34,8 @@ importers:
         specifier: 3.0.12
         version: 3.0.12(@praha/eslint-config-common@4.0.3(eslint@9.39.4(jiti@2.7.0)))(@praha/eslint-config-javascript@3.0.11(@praha/eslint-config-common@4.0.3(eslint@9.39.4(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.62.0(@typescript-eslint/parser@8.62.0(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/utils@8.62.0(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(@typescript-eslint/utils@8.62.0(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       '@rsbuild/core':
-        specifier: 1.7.5
-        version: 1.7.5
+        specifier: 1.7.6
+        version: 1.7.6
       '@rslib/core':
         specifier: 0.23.0
         version: 0.23.0(core-js@3.47.0)(typescript@5.9.3)
@@ -722,8 +722,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@rsbuild/core@1.7.5':
-    resolution: {integrity: sha512-i37urpoV4y9NSsGiUOuLdoI42KJ5h4gAZ8EG8Ilmsond3bxoAoOCu7YvC+1pJ7p+r16suVPW8cki891ZKHOoXQ==}
+  '@rsbuild/core@1.7.6':
+    resolution: {integrity: sha512-T1mLz745L59SM4F5HQFkeGAAsDBeHh2e5sT0cSC5c7xkBpstVWXJrQe5HALS+GvIxiV8cUOy2yD8QBT/Ah11lg==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -2992,7 +2992,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@rsbuild/core@1.7.5':
+  '@rsbuild/core@1.7.6':
     dependencies:
       '@rspack/core': 1.7.12(@swc/helpers@0.5.23)
       '@rspack/lite-tapable': 1.1.2
