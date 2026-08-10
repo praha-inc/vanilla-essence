@@ -67,7 +67,7 @@
     "@vanilla-extract/css": "1.21.2",
     "@vanilla-extract/integration": "8.0.10",
     "eslint": "9.39.5",
-    "pkg-pr-new": "0.0.86",
+    "pkg-pr-new": "0.0.87",
     "typescript": "5.9.3",
     "vitest": "4.1.10"
   },
